@@ -3,14 +3,14 @@
 using namespace std;
 int main()
 {
-double x, y, z, a;
+double x, y, z, b;
 printf ("x=");
 scanf("%lf", &x);
 printf ("y=");
 scanf("%lf", &y);
 printf ("z=");
 scanf("%lf", &z);
-a = pow(x, 4) * pow(tan(x + y), 2) + (z/ sqrt(x + y)) - 2 * tan(25.0 * M_PI / 180);
+b = pow(x, 4) * pow(tan(x + y), 2) + (z/ sqrt(x + y)) - 2 * tan(25.0 * M_PI / 180);
 printf("a= %lf\n", a);
 }
 
