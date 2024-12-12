@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-double x, y, z, b;
+, y, z, b;
 printf ("x=");
 scanf("%lf", &x);
 printf ("y=");
